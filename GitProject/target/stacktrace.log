@@ -249,3 +249,209 @@ java.io.FileNotFoundException: /home/student/.grails/2.0.0/projects/GitProject/t
 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
 	at java.lang.Thread.run(Thread.java:662)
+2012-05-01 19:40:44,345 ["http-bio-8080"-exec-10] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/home/student/dev/GIT-Project/GIT-Project/GitProject/grails-app/conf/BootStrap.groovy: 9: unable to resolve class student 
+ @ line 9, column 24.
+       def firststudent = new student(name:"Fred", coursecode:"3", notes:"none", application:"none").save();
+                          ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:551)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:500)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:483)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:903)
+	at org.codehaus.groovy.grails.compiler.Grailsc.compile(Grailsc.java:79)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:606)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at sun.reflect.GeneratedMethodAccessor82.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1231)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at groovy.util.AntBuilder.performTask(AntBuilder.java:260)
+	at groovy.util.AntBuilder.nodeCompleted(AntBuilder.java:220)
+	at groovy.util.BuilderSupport.doInvokeMethod(BuilderSupport.java:147)
+	at groovy.util.AntBuilder.doInvokeMethod(AntBuilder.java:170)
+	at groovy.util.BuilderSupport.invokeMethod(BuilderSupport.java:64)
+	at org.codehaus.gant.GantBuilder.invokeMethod(GantBuilder.java:99)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectCompiler.compile(GrailsProjectCompiler.groovy:265)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectCompiler$compile$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectCompiler.compile(GrailsProjectCompiler.groovy:236)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectCompiler.compileAll(GrailsProjectCompiler.groovy:228)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectWatcher.compileIfSource(GrailsProjectWatcher.java:227)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectWatcher.access$300(GrailsProjectWatcher.java:46)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectWatcher$1.onChange(GrailsProjectWatcher.java:137)
+	at org.codehaus.groovy.grails.compiler.DirectoryWatcher.fireOnChange(DirectoryWatcher.java:164)
+	at org.codehaus.groovy.grails.compiler.DirectoryWatcher.run(DirectoryWatcher.java:146)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectWatcher.run(GrailsProjectWatcher.java:183)
+2012-05-01 19:40:44,352 ["http-bio-8080"-exec-10] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/home/student/dev/GIT-Project/GIT-Project/GitProject/grails-app/conf/BootStrap.groovy: 9: unable to resolve class student 
+ @ line 9, column 24.
+       def firststudent = new student(name:"Fred", coursecode:"3", notes:"none", application:"none").save();
+                          ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:551)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:500)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:483)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:903)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:606)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2012-05-01 19:40:44,441 ["http-bio-8080"-exec-10] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/home/student/dev/GIT-Project/GIT-Project/GitProject/grails-app/conf/BootStrap.groovy: 9: unable to resolve class student 
+ @ line 9, column 24.
+       def firststudent = new student(name:"Fred", coursecode:"3", notes:"none", application:"none").save();
+                          ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:551)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:500)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:483)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:903)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:606)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2012-05-01 19:40:44,447 ["http-bio-8080"-exec-10] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/home/student/dev/GIT-Project/GIT-Project/GitProject/grails-app/conf/BootStrap.groovy: 9: unable to resolve class student 
+ @ line 9, column 24.
+       def firststudent = new student(name:"Fred", coursecode:"3", notes:"none", application:"none").save();
+                          ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:551)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:500)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:483)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:903)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:606)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2012-05-01 19:43:38,688 ["http-bio-8080"-exec-10] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/home/student/dev/GIT-Project/GIT-Project/GitProject/grails-app/conf/BootStrap.groovy: 9: unable to resolve class student 
+ @ line 9, column 24.
+       def firststudent = new Student(name:"Fred", coursecode:"3", notes:"none", applications:"none").save();
+                          ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:551)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:500)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:483)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:903)
+	at org.codehaus.groovy.grails.compiler.Grailsc.compile(Grailsc.java:79)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:606)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at sun.reflect.GeneratedMethodAccessor82.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1237)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at groovy.util.AntBuilder.performTask(AntBuilder.java:260)
+	at groovy.util.AntBuilder.nodeCompleted(AntBuilder.java:220)
+	at groovy.util.BuilderSupport.doInvokeMethod(BuilderSupport.java:147)
+	at groovy.util.AntBuilder.doInvokeMethod(AntBuilder.java:170)
+	at groovy.util.BuilderSupport.invokeMethod(BuilderSupport.java:64)
+	at org.codehaus.gant.GantBuilder.invokeMethod(GantBuilder.java:99)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectCompiler.compile(GrailsProjectCompiler.groovy:265)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectCompiler$compile$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectCompiler.compile(GrailsProjectCompiler.groovy:236)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectCompiler.compileAll(GrailsProjectCompiler.groovy:228)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectWatcher.compileIfSource(GrailsProjectWatcher.java:227)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectWatcher.access$300(GrailsProjectWatcher.java:46)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectWatcher$1.onChange(GrailsProjectWatcher.java:137)
+	at org.codehaus.groovy.grails.compiler.DirectoryWatcher.fireOnChange(DirectoryWatcher.java:164)
+	at org.codehaus.groovy.grails.compiler.DirectoryWatcher.run(DirectoryWatcher.java:146)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectWatcher.run(GrailsProjectWatcher.java:183)
+2012-05-01 19:43:38,689 ["http-bio-8080"-exec-10] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/home/student/dev/GIT-Project/GIT-Project/GitProject/grails-app/conf/BootStrap.groovy: 9: unable to resolve class student 
+ @ line 9, column 24.
+       def firststudent = new Student(name:"Fred", coursecode:"3", notes:"none", applications:"none").save();
+                          ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:551)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:500)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:483)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:903)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:606)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2012-05-01 19:43:38,701 ["http-bio-8080"-exec-10] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/home/student/dev/GIT-Project/GIT-Project/GitProject/grails-app/conf/BootStrap.groovy: 9: unable to resolve class student 
+ @ line 9, column 24.
+       def firststudent = new Student(name:"Fred", coursecode:"3", notes:"none", applications:"none").save();
+                          ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:551)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:500)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:483)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:903)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:606)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+2012-05-01 19:43:38,701 ["http-bio-8080"-exec-10] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/home/student/dev/GIT-Project/GIT-Project/GitProject/grails-app/conf/BootStrap.groovy: 9: unable to resolve class student 
+ @ line 9, column 24.
+       def firststudent = new Student(name:"Fred", coursecode:"3", notes:"none", applications:"none").save();
+                          ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:302)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:861)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:551)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:500)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:483)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:60)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:216)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:903)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:606)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
