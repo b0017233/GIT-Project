@@ -23,20 +23,38 @@
 			</g:if>
 			<ol class="property-list placements">
 			
-				<g:if test="${placementsInstance?.coursecode}">
+				<g:if test="${placementsInstance?.application}">
 				<li class="fieldcontain">
-					<span id="coursecode-label" class="property-label"><g:message code="placements.coursecode.label" default="Coursecode" /></span>
+					<span id="application-label" class="property-label"><g:message code="placements.application.label" default="Application" /></span>
 					
-						<span class="property-value" aria-labelledby="coursecode-label"><g:fieldValue bean="${placementsInstance}" field="coursecode"/></span>
+						<span class="property-value" aria-labelledby="application-label"><g:fieldValue bean="${placementsInstance}" field="application"/></span>
 					
 				</li>
 				</g:if>
 			
-				<g:if test="${placementsInstance?.name}">
+				<g:if test="${placementsInstance?.companyname}">
 				<li class="fieldcontain">
-					<span id="name-label" class="property-label"><g:message code="placements.name.label" default="Name" /></span>
+					<span id="companyname-label" class="property-label"><g:message code="placements.companyname.label" default="Companyname" /></span>
 					
-						<span class="property-value" aria-labelledby="name-label"><g:fieldValue bean="${placementsInstance}" field="name"/></span>
+						<span class="property-value" aria-labelledby="companyname-label"><g:fieldValue bean="${placementsInstance}" field="companyname"/></span>
+					
+				</li>
+				</g:if>
+			
+				<g:if test="${placementsInstance?.jobtitle}">
+				<li class="fieldcontain">
+					<span id="jobtitle-label" class="property-label"><g:message code="placements.jobtitle.label" default="Jobtitle" /></span>
+					
+						<span class="property-value" aria-labelledby="jobtitle-label"><g:fieldValue bean="${placementsInstance}" field="jobtitle"/></span>
+					
+				</li>
+				</g:if>
+			
+				<g:if test="${placementsInstance?.status}">
+				<li class="fieldcontain">
+					<span id="status-label" class="property-label"><g:message code="placements.status.label" default="Status" /></span>
+					
+						<span class="property-value" aria-labelledby="status-label"><g:fieldValue bean="${placementsInstance}" field="status"/></span>
 					
 				</li>
 				</g:if>

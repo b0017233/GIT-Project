@@ -2,8 +2,10 @@ package gitproject
 
 class Placements {
 
-        String name
-        String coursecode
+        String jobtitle
+        String application
+        String companyname
+        String status
 
     static constraints = {
     }
